@@ -1,0 +1,32 @@
+# ===========================
+# Configuración sensible
+# ===========================
+config/
+
+# ===========================
+# Archivos de Python
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===========================
+# Entornos virtuales
+# ===========================
+.env
+.venv
+env/
+venv/
+
+# ===========================
+# Jupyter Notebooks
+# ===========================
+.ipynb_checkpoints/
+*.ipynb~ 
+
+# ===========================
+# Archivos de sistema
+# ===========================
+.DS_Store
+Thumbs.db

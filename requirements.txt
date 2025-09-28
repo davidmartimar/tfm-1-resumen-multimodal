@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+wordcloud
+beautifulsoup4
+newspaper3k
+requests
+lxml_html_clean
+googlesearch-python
+spacy
+openai

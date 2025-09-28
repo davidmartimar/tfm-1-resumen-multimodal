@@ -59,7 +59,7 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
   ![Distribución de sentimiento](outputs/distribucion_de_sentimientos.png)
 
 - Proporción de sentimiento en fuentes textuales y audiovisuales
-  ![Proporción de sentimiento](images/proporcion_de_sentimientos.png)
+  ![Proporción de sentimiento](outputs/proporcion_de_sentimientos.png)
 
 - Top 3 entidades más mencionadas en cada categoría  
   ![Entidades principales](outputs/entidades.png)

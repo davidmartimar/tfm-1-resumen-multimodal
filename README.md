@@ -56,12 +56,15 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
 ## Visualizaciones principales
 
 - Distribución de sentimiento en fuentes textuales y audiovisuales  
+
   ![Distribución de sentimiento](outputs/distribucion_de_sentimientos.png)
 
 - Proporción de sentimiento en fuentes textuales y audiovisuales
+
   ![Proporción de sentimiento](outputs/proporcion_de_sentimientos.png)
 
 - Top 3 entidades más mencionadas en cada categoría  
+
   ![Entidades principales](outputs/entidades.png)
 
 
@@ -107,9 +110,13 @@ Las credenciales necesarias para conectarse a APIs y escenarios de Make se almac
 
 ## Resultados de ejemplo:
 - Post publicado automáticamente en LinkedIn
+
   ![Post en LinkedIn](images/linkedin.jpg)
+
 - Email enviado automáticamente como Newsletter o Boletín mensual
+  
   ![Newsletter o Boletín](images/email.jpg)
+  
 ---
 
 ## Reflexiones y dificultades

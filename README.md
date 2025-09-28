@@ -21,6 +21,13 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
 
 ---
 
+## Notebook del proyecto
+
+- [Visualizar en GitHub](notebooks/tfm_1_resumen_multimodal_laboral.ipynb)  
+- [Abrir en Google Colab](https://colab.research.google.com/drive/1KSSqAvmDfrHw_prdc3fDQlGBzJYuVSNi?usp=sharing)
+
+---
+
 ## Flujo de trabajo
 
 ![Esquema del flujo de trabajo](images/esquema.gif)

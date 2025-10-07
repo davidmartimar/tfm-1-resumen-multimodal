@@ -8,8 +8,6 @@ Este proyecto investiga cómo la IA impacta en el empleo a través de la **extra
 
 Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA de BIG school**.
 
----
-
 ## Objetivos del proyecto
 - Recolectar información de fuentes textuales y audiovisuales.  
 - Procesar y limpiar los datos con técnicas de NLP.  
@@ -19,14 +17,10 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
 
 **Aplicaciones prácticas posibles:** generación automática de boletines, informes ejecutivos, resúmenes de tendencias o monitorización de sectores.
 
----
-
 ## Notebook del proyecto
 
 - [Visualizar en GitHub](notebooks/tfm_1_resumen_multimodal_laboral.ipynb)  
 - [Abrir en Google Colab](https://colab.research.google.com/drive/1KSSqAvmDfrHw_prdc3fDQlGBzJYuVSNi?usp=sharing)
-
----
 
 ## Flujo de trabajo
 
@@ -58,8 +52,6 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
    - Ranking de entidades más mencionadas por categoría.  
    - Wordclouds y gráficos de apoyo.  
 
----
-
 ## Visualizaciones principales
 
 - Distribución de sentimiento en fuentes textuales y audiovisuales  
@@ -74,9 +66,6 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
 
   ![Entidades principales](outputs/entidades.png)
 
-
----
-
 ## Resultados obtenidos
 - Resumen global académico: `outputs/resumen_global.txt`  
 - Boletín mensual en HTML + TXT: `outputs/boletin_mensual.html` / `outputs/boletin_mensual.txt`  
@@ -84,9 +73,6 @@ Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA d
 - Visualizaciones exportadas en `outputs/`  
 - Automatización configurada con Make para publicación y envío automático.  
   ![Escenario de Make](images/make.jpg)
-
-
----
 
 ## Ejecución
 
@@ -113,8 +99,6 @@ Ejecutar las celdas en orden para:
 **Nota de seguridad**  
 Las credenciales necesarias para conectarse a APIs y escenarios de Make se almacenan en la carpeta `config/`, que está excluida del repositorio mediante `.gitignore`.
 
----
-
 ## Resultados de ejemplo:
 - Post publicado automáticamente en LinkedIn
 
@@ -123,24 +107,18 @@ Las credenciales necesarias para conectarse a APIs y escenarios de Make se almac
 - Email enviado automáticamente como Newsletter o Boletín mensual
   
   ![Newsletter o Boletín](images/email.jpg)
-  
----
 
 ## Reflexiones y dificultades
 - El scraping es sensible a cambios de estructura en las webs; se implementó un flujo adaptable y flexible por dominios.  
 - Whisper ofrece transcripciones de buena calidad, con limitaciones en audios ruidosos.  
 - La integración de LLMs requirió iteración de prompts hasta lograr resúmenes coherentes.  
-- Make permitió una automatización realista con costes reducidos (créditos por ejecución).  
-
----
+- Make permitió una automatización realista con costes reducidos (créditos por ejecución).
 
 ## Posibles mejoras futuras
 - Comparar modelos de resumen (extractivo vs. generativo).
 - Adjuntar las visualizaciones en el post de LinkedIn y/o la newsletter.  
 - Integrar un dashboard interactivo con Tableau.  
 - Ampliar el número de fuentes y cubrir otros idiomas/sectores.  
-
----
 
 ## Conclusión
 El proyecto demuestra la viabilidad de un **pipeline multimodal de investigación** que combina scraping, transcripción automática, NLP, generación de resúmenes y visualizaciones, integrado con herramientas de automatización para maximizar impacto práctico.  

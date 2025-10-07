@@ -3,8 +3,9 @@
   ![El Futuro del Trabajo](images/ai_at_work.png)
 
 ## Introducción
-La **inteligencia artificial (IA)** está transformando aceleradamente el mercado laboral, modificando modelos de negocio, procesos de trabajo y competencias requeridas.  
+La **inteligencia artificial (IA)** está transformando aceleradamente el mercado laboral, modificando modelos de negocio, procesos de trabajo y competencias requeridas. Además, es una tecnología en constante cambio y evolución.  
 Este proyecto investiga cómo la IA impacta en el empleo a través de la **extracción multimodal** de información (textos y transcripciones de vídeos), su procesamiento y la generación de un **resumen global** con insights relevantes.
+El sistema permite reducir el tiempo de lectura y síntesis de contenidos, generando informes listos en minutos, publicaciones automaticas y envios de newsletters.
 
 Este trabajo forma parte del **Trabajo Final de Máster en Data Science con IA de BIG school**.
 
@@ -110,9 +111,9 @@ Las credenciales necesarias para conectarse a APIs y escenarios de Make se almac
 
 ## Reflexiones y dificultades
 - El scraping es sensible a cambios de estructura en las webs; se implementó un flujo adaptable y flexible por dominios.  
-- Whisper ofrece transcripciones de buena calidad, con limitaciones en audios ruidosos.  
-- La integración de LLMs requirió iteración de prompts hasta lograr resúmenes coherentes.  
-- Make permitió una automatización realista con costes reducidos (créditos por ejecución).
+- Se utilizó Whisper por su equilibrio entre precisión y velocidad frente a alternativas como Vosk.
+- La integración de LLMs requirió iteración de prompts hasta lograr resúmenes coherentes.
+- Make permitió una automatización realista con costes reducidos. Su integración directa con LinkedIn y Gmail, Mailchimp, etc. Facilitó la automatización sin necesidad de desarrollo backend adicional.  
 
 ## Posibles mejoras futuras
 - Comparar modelos de resumen (extractivo vs. generativo).
@@ -123,3 +124,4 @@ Las credenciales necesarias para conectarse a APIs y escenarios de Make se almac
 ## Conclusión
 El proyecto demuestra la viabilidad de un **pipeline multimodal de investigación** que combina scraping, transcripción automática, NLP, generación de resúmenes y visualizaciones, integrado con herramientas de automatización para maximizar impacto práctico.  
 El enfoque es aplicable a monitorización de tendencias, informes sectoriales y generación de contenido automatizado.
+En definitiva, este proyecto demuestra que es posible convertir la sobrecarga informativa en conocimiento accionable, combinando IA, NLP y automatización en un solo flujo integrado.

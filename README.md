@@ -1,4 +1,4 @@
-# Proyecto TFM 1: Resumen Multimodal sobre el Impacto de la IA en el Empleo
+# Resumen Multimodal sobre el Impacto de la IA en el Empleo
 
   ![El Futuro del Trabajo](images/ai_at_work.png)
 

@@ -1,4 +1,4 @@
-# Resumen Multimodal sobre el Impacto de la IA en el Empleo
+# Resumen Multimodal sobre la IA y el Empleo
 
   ![El Futuro del Trabajo](images/ai_at_work.png)
 
